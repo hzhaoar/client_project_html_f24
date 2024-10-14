@@ -190,27 +190,26 @@ h3 {
     color: greenyellow;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .main-header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
 
-    .navbar {
-        margin-top: 20px;
-        width: 100%;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    main {
-        padding: 20px;
-    }
+.main-header {
+    flex-direction: column;
+    align-items: flex-start;
 }
+
+.navbar {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.nav-links {
+    flex-direction: column;
+    gap: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
 
 .section-image {
     width: 100%;
