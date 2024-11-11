@@ -270,7 +270,7 @@ h3 {
 }
 
 /* Tablet and larger view styles */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
     .main-header {
         position: sticky;
         top: 0;
